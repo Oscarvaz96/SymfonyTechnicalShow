@@ -36,6 +36,5 @@ class ProductController extends AbstractController
         }
 
         return new JsonResponse($response->toArray(),200);
-        
     }
 }
